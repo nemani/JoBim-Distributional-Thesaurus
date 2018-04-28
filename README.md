@@ -6,7 +6,7 @@
 
 ### Sahil Bakshi
 
-Sahil converted the mouse corpus using stanford dependecy parser, and performed Holling Function on it.
+Sahil converted the mouse corpus using [(stanford dependecy parser)](https://sourceforge.net/projects/jobimtextgpl.jobimtext.p/), and performed Holling Function on it.
 
 Alok wrote the code for Pointwise Mutual Information as Similarity Function
 
@@ -21,12 +21,21 @@ Usage:
 * \*\* python3 thesuarus.py > DT.txt
 
 Examples:
+
+> python3 main.py
+
 Loading
+
 TotalCount: 288902, JoBimCount:171790, JoCount:23096, BimCount:66244
+
 Welcome to the DT!
+
 Pruning factor is set to 4.5
+
 Enter number of words needed:5
+
 Enter word:dog
+
 dog#nn
 
     1 - pesticide-resistance#nn - 1 times
@@ -40,6 +49,7 @@ dog#nn
     5 - investigates#nn - 1 times
 
 Enter word:bite
+
 bite#vb
 
     1 - drag#vb - 3 times
@@ -65,6 +75,7 @@ bite#nn
     5 - tail#nn - 2 times
 
 Enter word:bit
+
 bit#vb
 
     1 - come#vb - 2 times
@@ -100,5 +111,3 @@ bit#jj
     4 - most#jjs - 1 times
 
     5 - multiple#jj - 1 times
-
-Enter word:
