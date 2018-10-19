@@ -1,17 +1,10 @@
 # Distributional Thesaurus using JoBim Algorithm
+## Arjun Nemani
+### Created as part of Computational Linguistics - 1 (Monsoon 2017) taught by Soma Paul at IIIT Hyderabad.
 
-### Arjun Nemani
 
-### Alok Debnath
-
-### Sahil Bakshi
-
-Sahil converted the mouse corpus using [(stanford dependecy parser)](https://sourceforge.net/projects/jobimtextgpl.jobimtext.p/), and performed Holling Function on it.
-
-Alok wrote the code for Pointwise Mutual Information as Similarity Function
-
-Arjun wrote code to make a Graph-Based Aggregation Function.
-Arjun also wrote the interface to interact with the DT.
+This is an implementation of Distributional Thesaurus based on the JoBimText Model. 
+Uses Pointwise Mutual Information (PMI) as the similarity function and a Graph-based aggregation function.
 
 Usage:
 
